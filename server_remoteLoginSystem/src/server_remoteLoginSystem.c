@@ -30,7 +30,7 @@ int main(){
     }
 
     //------------------------打开日志文件------------------------------//
-    fp_log = fopen("log", "w+");
+    fp_log = fopen("log", "a");
     if(NULL == fp_log){
         printf("open error!\n");
         exit(0);

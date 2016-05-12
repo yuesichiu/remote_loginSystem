@@ -14,11 +14,11 @@
 * 函数返回值：无
 * */
 void main_menu(){
-    printf(GREEN"          客户端             \n");
-    printf("-----------------------------\n");
-    printf("     1.注册                 \n");
-    printf("     2.登录                 \n");
-    printf("     0.退出                 \n");
+    printf(GREEN"         * 客 户 端 *             \n");
+    printf("-----------------------------\n\n");
+    printf("           1.注册                 \n");
+    printf("           2.登录                 \n");
+    printf("           0.退出                 \n\n");
     printf("-----------------------------\n"NONE);
     printf(YELLOW"请选择：\n"NONE);
 } 
@@ -30,13 +30,13 @@ void main_menu(){
 * 函数返回值：无
 * */
 void chatRoom_menu(){
-    printf(GREEN"           聊天室           \n");
-    printf("-----------------------------\n");
+    printf(GREEN"        * 聊 天 室 *           \n");
+    printf("-----------------------------\n\n");
     printf("     1.向服务器发送命令     \n");
     printf("     2.单聊                 \n");
     printf("     3.群聊                 \n");
     printf("     4.查询在线好友         \n");
-    printf("     0.退出聊天室           \n");
+    printf("     0.退出聊天室           \n\n");
     printf("----------------------------\n"NONE);
     printf(YELLOW"请选择：\n"NONE);
 }
